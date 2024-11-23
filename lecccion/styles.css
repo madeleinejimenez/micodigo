@@ -1,0 +1,88 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background: url('fondo.jpg') no-repeat center center fixed;
+  background-size: cover; /* La imagen cubre todo el fondo */
+  color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilo del encabezado */
+.header {
+  background: #87bdf6; /* Azul */
+  color: white;
+  padding: 20px 0;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+}
+
+.header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* Contenido principal */
+.main-content {
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+/* Perfil */
+.profile {
+  background: rgb(211, 239, 245);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  object-fit: cover; /* Asegura que la imagen se ajuste sin deformarse */
+  border-radius: 0; /* Hace la imagen cuadrada */
+  margin-bottom: 20px;
+}
+
+/* Habilidades */
+.skills {
+  background: #c8e2f1;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.skills ul {
+  list-style-type: none;
+}
+
+.skills li {
+  margin: 10px 0;
+}
+
+/* Contacto */
+.contact {
+  background: #dfdfea;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.contact a {
+  color: #0f1010;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
