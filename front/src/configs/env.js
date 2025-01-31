@@ -9,6 +9,9 @@ const config = {
             update: "teacher/update",
             delete: "teacher/delete",
         },
+    initia:{
+        login:"/initia/login",
+    }
     },
 };
 

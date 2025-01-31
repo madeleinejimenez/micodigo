@@ -1,7 +1,7 @@
 var express = require("express");
 var router = express.Router();
 
-const teacherController = require("../controllers/teacher.controller");
+const teacherRouter = require('./routes/teacher.router.js');
 
 /* POST METHOD TEACHER USER. */
 router.post("/list", function (response) {
